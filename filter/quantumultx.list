@@ -23,7 +23,6 @@ host, cloud.culturedcode.com, direct
 
 # > Fastmail
 host-suffix, fastmail.com, direct
-ip-asn, 25820, direct
 
 # > Microsoft Account
 host, login.microsoftonline.com, direct
