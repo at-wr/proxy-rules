@@ -1,0 +1,34 @@
+# Custom Proxy Rules
+# Author: at-wr
+# Repo: github.com/at-wr/proxy-rules
+# License: MIT
+
+# Services
+# > 1Password Services
+host-suffix, 1password.com, direct
+
+# > Apple Music
+host, music.apple.com, proxy
+
+# > Bluesky Social
+host, cdn.bsky.app, proxy
+host-suffix, bsky.app, direct
+host-suffix, bsky.social, direct
+
+# > Bing
+host-keyword, bing.com, proxy
+
+# > Things Cloud
+host, cloud.culturedcode.com, direct
+
+# > Fastmail
+host-suffix, fastmail.com, direct
+ip-asn, 25820, direct
+
+# > Microsoft Account
+host, login.microsoftonline.com, direct
+
+# Block unnecessary requests
+host, app-monitor.ele.me, reject
+host, vv.video.qq.com, reject
+
