@@ -11,9 +11,9 @@ host-suffix, 1password.com, direct
 host, music.apple.com, proxy
 
 # > Bluesky Social
-host, cdn.bsky.app, proxy
-host-suffix, bsky.app, direct
-host-suffix, bsky.social, direct
+# host, cdn.bsky.app, proxy
+host-suffix, bsky.app, proxy
+host-suffix, bsky.social, proxy
 
 # > Bing
 host-keyword, bing.com, proxy
