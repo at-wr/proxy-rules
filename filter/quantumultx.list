@@ -14,9 +14,13 @@ host, music.apple.com, proxy
 # host, cdn.bsky.app, proxy
 host-suffix, bsky.app, proxy
 host-suffix, bsky.social, proxy
+host-suffix, bsky.network, proxy
 
 # > Bing
 host-keyword, bing.com, proxy
+
+# > GoodNotes
+host-keyword, goodnotes, proxy
 
 # > Things Cloud
 host, cloud.culturedcode.com, direct
